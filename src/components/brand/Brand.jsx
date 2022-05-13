@@ -5,17 +5,17 @@ import "./brand.css";
 const Brand = () => (
   <div className="brand section__padding">
     <div>
-      <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+      <a href="https://linkedin.com/in/paytonkaleiwahea" target="_blank" rel="noreferrer">
         <img src={link} alt="link" />
       </a>
     </div>
     <div>
-      <a href="https://youtube.com" target="_blank" rel="noreferrer">
+      <a href="https://youtube.com/PaytonKaleiwahea" target="_blank" rel="noreferrer">
         <img src={youtube} alt="youtube" />
       </a>
     </div>
     <div>
-      <a href="https://twitter.com" target="_blank" rel="noreferrer">
+      <a href="https://twitter.com/WolvesDAO" target="_blank" rel="noreferrer">
         <img src={twitter} alt="twitter" />
       </a>
     </div>

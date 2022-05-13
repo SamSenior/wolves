@@ -4,14 +4,7 @@ import './footer.css';
 
 const Footer = () => (
   <div className="footer section__padding">
-    {/* <div className="footer-heading">
-      <h1 className="gradient__text">Do you want to step in to the future before others</h1>
-    </div>
-
-    <div className="footer-btn">
-      <p>Request Early Access</p>
-    </div> */}
-
+   
     <div className="footer-links">
     <div className="footer-links_logo">
         <img src={WDLogo} alt="WDlogo" />
