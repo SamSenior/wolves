@@ -20,7 +20,9 @@ const App = () => (
 
     <About />
     <Services />
+    <div className="gradient__bg">
     <Roadmap />
+    </div>
     <Join />
     <Partners />
     <div className="gradient__bg_2">
