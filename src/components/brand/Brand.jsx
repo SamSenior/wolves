@@ -1,14 +1,35 @@
-import React from 'react'
-import './brand.css';
+import React from "react";
+import { link, youtube, twitter, github, discord } from "./imports";
+import "./brand.css";
 
-
-
-const Brand = () => {
-  return (
+const Brand = () => (
+  <div className="brand section__padding">
     <div>
-      
+      <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+        <img src={link} alt="link" />
+      </a>
     </div>
-  )
-}
+    <div>
+      <a href="https://youtube.com" target="_blank" rel="noreferrer">
+        <img src={youtube} alt="youtube" />
+      </a>
+    </div>
+    <div>
+      <a href="https://twitter.com" target="_blank" rel="noreferrer">
+        <img src={twitter} alt="twitter" />
+      </a>
+    </div>
+    <div>
+      <a href="https://github.com" target="_blank" rel="noreferrer">
+        <img src={github} alt="github" />
+      </a>
+    </div>
+    <div>
+      <a href="https://discord.com" target="_blank" rel="noreferrer">
+        <img src={discord} alt="discord" className="discord" />
+      </a>
+    </div>
+  </div>
+);
 
-export default Brand
+export default Brand;

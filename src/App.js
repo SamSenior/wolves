@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import {
+  Footer,
+  Partners,
+  Roadmap,
+  Services,
+  About,
+  Header,
+} from "./containers";
+import { Join, Brand, Navbar } from "./components";
 
-import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from './containers';
-import { CTA, Brand, Navbar } from './components';
-
-import './App.css';
+import "./App.css";
 
 const App = () => (
   <div className="App">
@@ -11,14 +17,17 @@ const App = () => (
       <Navbar />
       <Header />
     </div>
-    <Brand />
-    <WhatGPT3 />
-    <Features />
-    <Possibility />
-    <CTA />
-    <Blog />
+
+    <About />
+    <Services />
+    <Roadmap />
+    <Join />
+    <Partners />
+    <div className="gradient__bg_2">
+      <Brand />
+    </div>
     <Footer />
   </div>
 );
 
-export default App
+export default App;
