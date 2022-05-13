@@ -9,7 +9,7 @@ const featuresData = [
   },
   {
     title: "Tokenomics Calculators",
-    text: "We offer this free service to our customers to help the mlearn and understand tokenomics, which plays a cruical part of the blockhain gaming sector.",
+    text: "We offer this free service to help everyone understand tokenomics, which plays a cruical part of the blockhain gaming sector.",
   },
   {
     title: "Report Writing",
