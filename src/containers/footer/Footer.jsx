@@ -14,7 +14,7 @@ const Footer = () => (
 
     <div className="footer-links">
     <div className="footer-links_logo">
-        <img src={WDLogo} alt="gpt3_logo" />
+        <img src={WDLogo} alt="WDlogo" />
        
       </div>
       
