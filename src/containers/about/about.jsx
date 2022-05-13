@@ -7,7 +7,7 @@ const About = () => (
     <div className="about-heading">
       <h1 className="gradient__text">
         We envision a future where everyone from projects to players have access
-        to what they need to create a world of integrity, prosperity and fun
+        to what they need to create a world of integrity, prosperity and fun.
       </h1>
       <div><image></image></div>
     </div>

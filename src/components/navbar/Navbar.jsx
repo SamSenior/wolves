@@ -30,10 +30,10 @@ const Navbar = () => {
           </p>
         </div>
       </div>
-      <div className="navbar-sign">
+      {/* <div className="navbar-sign">
         <p>Sign in</p>
         <button type="button">Sign up</button>
-      </div>
+      </div> */}
       <div className="navbar-menu">
         {toggleMenu ? (
           <RiCloseLine
@@ -67,10 +67,10 @@ const Navbar = () => {
                 <a href="#partners">Partners</a>
               </p>
             </div>
-            <div className="navbar-menu_container-links-sign">
+            {/* <div className="navbar-menu_container-links-sign">
               <p>Sign in</p>
               <button type="button">Sign up</button>
-            </div>
+            </div> */}
           </div>
         )}
       </div>
